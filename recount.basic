@@ -1,0 +1,10 @@
+5 'hoe de punten hertelling zou moeten zijn
+10 BEEP
+15 PRINT "team punten zijn"
+20 POKE 60000!, 69
+30 PRINT PEEK(60000!)
+40 BEEP
+50 ' Wait until user toggles CAPS LOCK on.
+60 WAIT 170,64,64
+70 GOTO 10
+RUN
